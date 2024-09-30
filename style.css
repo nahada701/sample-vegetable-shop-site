@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.logo{
+    color: rgb(48, 208, 12);
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+.icons i{
+    font-size: 20px;
+}
+.home{
+padding: 100px;
+}
+.home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150vh;
+    background-image: url("./imgs/top-view-vegetables-tomatoes-bell-peppers-cucumber-greens-mushroom-wood-board_140725-145793.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.25; /* Decrease opacity here */
+    z-index: -1;
+  }
+  .home h5{
+    color: orange;
+    
+  }
+  .small-h1{
+    color: rgb(48, 208, 12);
+    font-size: 55px;
+  }
+  .search{
+    border: 1px orange solid;
+    border-radius: 30px;
+    padding: 10px ;
+    width: 249px;
+  }
+  .submit{
+    border: 1px orange solid;
+    border-radius: 30px;
+    padding: 10px ;
+    color: white;
+   background-color: rgb(48, 208, 12);
+   margin-right: 30px;
+   position: absolute;
+   left: 294px;
+  }
+  .veg{
+    color: white;
+    background-color: rgba(255, 166, 0, 0.727) ;
+    /* opacity: .5; */
+    padding: 10px;
+    position: absolute;
+    right: 42%;
+    top: 41%;
+  }
+  @media(max-width:768){
+    .veg{
+        display: none;
+        
+    }
+    .image-veg{
+      display: none !important;
+
+    }
+
+
+  
+  }
+
+    
+  
+
+
+  @media(max-width:449px){
+    .submit{
+      left: 200px;
+      font-size: 9px;
+
+  } 
+  .search{
+    font-size: 9px;
+   
+    width: 111px;
+
+  }
+  .veg{
+    display: none;
+  }
+  .btnn{
+    padding: 5px 3px !important;
+    margin-left: 3px !important;
+    margin-bottom: 20px !important;
+  }
+  }
+  .cards{
+    padding: 10px;
+    background-color: rgb(189, 189, 189);
+    margin: 20px;
+  }
+  .points{
+    
+    margin: 82vh 0px 20px  ;
+  display: flex;
+  justify-content: center;
+ 
+
+  }
+  .pro{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+  }
+  .btnn{
+    background-color: rgb(196, 196, 196);
+    border: none;
+    border-radius: 30px;
+   padding: 10px 20px;
+   margin-left: 20px;
+
+  }
+  .home-right{
+    position: relative;
+  }
+  .best{
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width:767px){
+   .small-h1{
+    font-size: 30px !important;
+   }
+   .search{
+    width: 170px;
+   }
+   .home-left{
+    margin-top: 0;
+   }
+  }
+  .points{
+
+  }
+  @media(min-width:370px ) and (max-width:767px ) {
+    .submit{
+      left: 233px;
+    }
+  }
